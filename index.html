@@ -5,6 +5,7 @@
          <meta charset="utf-8">
         <title>goit-markup-hw-01</title>
         <!--Custom styles-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +14,9 @@
        
     </head>
     <body class="body">
-            <div class="container">
-                <header class="header-line">
+        <header class="header-line">
+            <div class="container-header container">
+                
                         <nav class="header-nav list">
 
                             <div class="header-logotipe">
@@ -22,13 +24,13 @@
                             </div>
 
                                 <ul class="header-menu list">
-                                    <li>
+                                    <li class="header-menu-item">
                                         <a  href="./index.html" class="header-link link">Studio</a>
                                     </li>
-                                    <li>
+                                    <li class="header-menu-item">
                                         <a  href="./portfolio.html" class="header-link link">Portfolio</a>
                                     </li>
-                                    <li>
+                                    <li class="header-menu-item">
                                         <a  href="" class="header-link link">Contacts</a>
                                     </li>
                                 </ul>
@@ -46,9 +48,9 @@
                             </ul>
                         </address>
 
-                </div>
+            </div>
                         
-            </header>
+        </header>
             <main>
             <!--Hero section 1-->
                 <section class="section-hero">
@@ -89,13 +91,13 @@
                     <div class="container">            
                         <h2 class="picture-title">What are we doing</h2>
                         <ul class="picture-list list">
-                            <li>
+                            <li class="pictures-items">
                             <img class="picture-img" src="./images/img1.jpg" alt="computer" width="360">
                             </li>
-                            <li>
+                            <li class="pictures-items">
                             <img class="picture-img" src="./images/img2.jpg" alt="phone" width="360">
                             </li>
-                            <li>
+                            <li class="pictures-items">
                             <img class="picture-img" src="./images/img3.jpg" alt="computer and phone" width="360">
                             </li>
                         </ul>
