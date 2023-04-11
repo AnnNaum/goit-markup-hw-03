@@ -48,6 +48,12 @@ ul {
 
 .header-container {
     display: flex;
+    align-items: center;
+}
+
+.header-line {
+    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-nav {
@@ -63,7 +69,10 @@ ul {
     flex-wrap: wrap;
     gap: 40px;
 
-  
+}
+
+.header-menu-item {
+    padding: 24px 0;
 }
 
 .address-contact-menu {
@@ -85,6 +94,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 
 }
 
@@ -143,7 +153,6 @@ ul {
     letter-spacing: 0.02em;
     color: var(--color-slate);
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .address-contact:hover,
@@ -153,6 +162,7 @@ ul {
 
 .address-menu {
     font-style: normal;
+    padding: 24px 0;
 }
 
 
@@ -450,7 +460,9 @@ display: flex;
 
 
 
-
+.section-portfolio {
+    padding: 96px 0 120px;
+}
 
 
 
@@ -502,10 +514,7 @@ display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-}
-
-.row-img {
-    margin-bottom: 8px;
+    margin-bottom: 8px
 }
 
 .row-item {
