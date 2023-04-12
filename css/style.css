@@ -367,19 +367,17 @@ display: flex;
 
     font-family: 'Raleway',
         sans-serif;
-
-
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 16px;
-
 }
 
-
+span {
+    margin-bottom: 16px;
+}
 
 
 .footer {
